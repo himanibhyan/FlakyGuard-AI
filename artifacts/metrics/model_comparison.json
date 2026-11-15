@@ -1,0 +1,920 @@
+{
+  "task_a_flakiness_detection": {
+    "best_model": "Random Forest",
+    "models": {
+      "Logistic Regression": {
+        "model_name": "Logistic Regression",
+        "accuracy": 0.6652,
+        "precision": 0.7863,
+        "recall": 0.6525,
+        "f1_score": 0.7132,
+        "macro_f1": 0.6555,
+        "roc_auc": 0.7262,
+        "pr_auc": 0.8014,
+        "confusion_matrix": [
+          [
+            55,
+            25
+          ],
+          [
+            49,
+            92
+          ]
+        ],
+        "classification_report": {
+          "False Positive": {
+            "precision": 0.5288461538461539,
+            "recall": 0.6875,
+            "f1-score": 0.5978260869565217,
+            "support": 80.0
+          },
+          "Flaky": {
+            "precision": 0.7863247863247863,
+            "recall": 0.6524822695035462,
+            "f1-score": 0.7131782945736435,
+            "support": 141.0
+          },
+          "accuracy": 0.665158371040724,
+          "macro avg": {
+            "precision": 0.6575854700854701,
+            "recall": 0.6699911347517731,
+            "f1-score": 0.6555021907650826,
+            "support": 221.0
+          },
+          "weighted avg": {
+            "precision": 0.6931198514908923,
+            "recall": 0.665158371040724,
+            "f1-score": 0.6714218393276264,
+            "support": 221.0
+          }
+        }
+      },
+      "Linear SVM": {
+        "model_name": "Linear SVM",
+        "accuracy": 0.6697,
+        "precision": 0.7048,
+        "recall": 0.8298,
+        "f1_score": 0.7622,
+        "macro_f1": 0.6107,
+        "roc_auc": 0.6993,
+        "pr_auc": 0.796,
+        "confusion_matrix": [
+          [
+            31,
+            49
+          ],
+          [
+            24,
+            117
+          ]
+        ],
+        "classification_report": {
+          "False Positive": {
+            "precision": 0.5636363636363636,
+            "recall": 0.3875,
+            "f1-score": 0.45925925925925926,
+            "support": 80.0
+          },
+          "Flaky": {
+            "precision": 0.7048192771084337,
+            "recall": 0.8297872340425532,
+            "f1-score": 0.762214983713355,
+            "support": 141.0
+          },
+          "accuracy": 0.669683257918552,
+          "macro avg": {
+            "precision": 0.6342278203723987,
+            "recall": 0.6086436170212766,
+            "f1-score": 0.6107371214863071,
+            "support": 221.0
+          },
+          "weighted avg": {
+            "precision": 0.6537123401049695,
+            "recall": 0.669683257918552,
+            "f1-score": 0.6525477531417366,
+            "support": 221.0
+          }
+        }
+      },
+      "Random Forest": {
+        "model_name": "Random Forest",
+        "accuracy": 0.7104,
+        "precision": 0.7692,
+        "recall": 0.7801,
+        "f1_score": 0.7746,
+        "macro_f1": 0.6848,
+        "roc_auc": 0.731,
+        "pr_auc": 0.8022,
+        "confusion_matrix": [
+          [
+            47,
+            33
+          ],
+          [
+            31,
+            110
+          ]
+        ],
+        "classification_report": {
+          "False Positive": {
+            "precision": 0.6025641025641025,
+            "recall": 0.5875,
+            "f1-score": 0.5949367088607594,
+            "support": 80.0
+          },
+          "Flaky": {
+            "precision": 0.7692307692307693,
+            "recall": 0.7801418439716312,
+            "f1-score": 0.7746478873239436,
+            "support": 141.0
+          },
+          "accuracy": 0.7104072398190046,
+          "macro avg": {
+            "precision": 0.6858974358974359,
+            "recall": 0.6838209219858156,
+            "f1-score": 0.6847922980923515,
+            "support": 221.0
+          },
+          "weighted avg": {
+            "precision": 0.7088989441930619,
+            "recall": 0.7104072398190046,
+            "f1-score": 0.7095940670657773,
+            "support": 221.0
+          }
+        }
+      }
+    }
+  },
+  "task_b_root_cause_classification": {
+    "best_model": "Logistic Regression",
+    "classes": [
+      "Async Wait",
+      "Concurrency",
+      "Floating Point Operations",
+      "Network",
+      "Platform Dependency",
+      "Randomness",
+      "Resource Leak",
+      "Test Case Timeout",
+      "Test Order Dependency",
+      "Test Suite Timeout",
+      "Time",
+      "Too Restrictive Range",
+      "Unordered Collections"
+    ],
+    "models": {
+      "Logistic Regression": {
+        "model_name": "Logistic Regression",
+        "accuracy": 0.3051,
+        "macro_f1": 0.2289,
+        "weighted_f1": 0.2894,
+        "confusion_matrix": [
+          [
+            6,
+            1,
+            0,
+            2,
+            7,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            1,
+            0,
+            1,
+            0,
+            5,
+            1,
+            4,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            4,
+            3,
+            1,
+            1,
+            0,
+            0,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            5,
+            1,
+            2,
+            0,
+            2,
+            0,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            9,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "per_class": {
+          "Async Wait": {
+            "precision": 0.375,
+            "recall": 0.2857,
+            "f1-score": 0.3243,
+            "support": 21
+          },
+          "Concurrency": {
+            "precision": 0.375,
+            "recall": 0.1579,
+            "f1-score": 0.2222,
+            "support": 19
+          },
+          "Floating Point Operations": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 3
+          },
+          "Network": {
+            "precision": 0.4,
+            "recall": 0.2857,
+            "f1-score": 0.3333,
+            "support": 14
+          },
+          "Platform Dependency": {
+            "precision": 0.2174,
+            "recall": 0.2941,
+            "f1-score": 0.25,
+            "support": 17
+          },
+          "Randomness": {
+            "precision": 0.3333,
+            "recall": 0.25,
+            "f1-score": 0.2857,
+            "support": 4
+          },
+          "Resource Leak": {
+            "precision": 0.4286,
+            "recall": 0.75,
+            "f1-score": 0.5455,
+            "support": 12
+          },
+          "Test Case Timeout": {
+            "precision": 0.375,
+            "recall": 0.5,
+            "f1-score": 0.4286,
+            "support": 6
+          },
+          "Test Order Dependency": {
+            "precision": 0.1818,
+            "recall": 0.25,
+            "f1-score": 0.2105,
+            "support": 8
+          },
+          "Test Suite Timeout": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1
+          },
+          "Time": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6
+          },
+          "Too Restrictive Range": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1
+          },
+          "Unordered Collections": {
+            "precision": 0.3,
+            "recall": 0.5,
+            "f1-score": 0.375,
+            "support": 6
+          }
+        },
+        "classification_report": {
+          "Async Wait": {
+            "precision": 0.375,
+            "recall": 0.2857142857142857,
+            "f1-score": 0.32432432432432434,
+            "support": 21.0
+          },
+          "Concurrency": {
+            "precision": 0.375,
+            "recall": 0.15789473684210525,
+            "f1-score": 0.2222222222222222,
+            "support": 19.0
+          },
+          "Floating Point Operations": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 3.0
+          },
+          "Network": {
+            "precision": 0.4,
+            "recall": 0.2857142857142857,
+            "f1-score": 0.3333333333333333,
+            "support": 14.0
+          },
+          "Platform Dependency": {
+            "precision": 0.21739130434782608,
+            "recall": 0.29411764705882354,
+            "f1-score": 0.25,
+            "support": 17.0
+          },
+          "Randomness": {
+            "precision": 0.3333333333333333,
+            "recall": 0.25,
+            "f1-score": 0.2857142857142857,
+            "support": 4.0
+          },
+          "Resource Leak": {
+            "precision": 0.42857142857142855,
+            "recall": 0.75,
+            "f1-score": 0.5454545454545454,
+            "support": 12.0
+          },
+          "Test Case Timeout": {
+            "precision": 0.375,
+            "recall": 0.5,
+            "f1-score": 0.42857142857142855,
+            "support": 6.0
+          },
+          "Test Order Dependency": {
+            "precision": 0.18181818181818182,
+            "recall": 0.25,
+            "f1-score": 0.21052631578947367,
+            "support": 8.0
+          },
+          "Test Suite Timeout": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "Time": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+          },
+          "Too Restrictive Range": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "Unordered Collections": {
+            "precision": 0.3,
+            "recall": 0.5,
+            "f1-score": 0.375,
+            "support": 6.0
+          },
+          "accuracy": 0.3050847457627119,
+          "macro avg": {
+            "precision": 0.2297010960054438,
+            "recall": 0.25180315040996154,
+            "f1-score": 0.22885741964689335,
+            "support": 118.0
+          },
+          "weighted avg": {
+            "precision": 0.30742701783600823,
+            "recall": 0.3050847457627119,
+            "f1-score": 0.28935297021826906,
+            "support": 118.0
+          }
+        }
+      },
+      "Linear SVM": {
+        "model_name": "Linear SVM",
+        "accuracy": 0.3305,
+        "macro_f1": 0.1844,
+        "weighted_f1": 0.2931,
+        "confusion_matrix": [
+          [
+            8,
+            3,
+            0,
+            1,
+            7,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            8,
+            0,
+            1,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            4,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            0,
+            0,
+            8,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_class": {
+          "Async Wait": {
+            "precision": 0.2,
+            "recall": 0.381,
+            "f1-score": 0.2623,
+            "support": 21
+          },
+          "Concurrency": {
+            "precision": 0.4444,
+            "recall": 0.4211,
+            "f1-score": 0.4324,
+            "support": 19
+          },
+          "Floating Point Operations": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 3
+          },
+          "Network": {
+            "precision": 0.6667,
+            "recall": 0.2857,
+            "f1-score": 0.4,
+            "support": 14
+          },
+          "Platform Dependency": {
+            "precision": 0.25,
+            "recall": 0.4706,
+            "f1-score": 0.3265,
+            "support": 17
+          },
+          "Randomness": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 4
+          },
+          "Resource Leak": {
+            "precision": 0.5625,
+            "recall": 0.75,
+            "f1-score": 0.6429,
+            "support": 12
+          },
+          "Test Case Timeout": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6
+          },
+          "Test Order Dependency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 8
+          },
+          "Test Suite Timeout": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1
+          },
+          "Time": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6
+          },
+          "Too Restrictive Range": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1
+          },
+          "Unordered Collections": {
+            "precision": 0.3333,
+            "recall": 0.3333,
+            "f1-score": 0.3333,
+            "support": 6
+          }
+        },
+        "classification_report": {
+          "Async Wait": {
+            "precision": 0.2,
+            "recall": 0.38095238095238093,
+            "f1-score": 0.26229508196721313,
+            "support": 21.0
+          },
+          "Concurrency": {
+            "precision": 0.4444444444444444,
+            "recall": 0.42105263157894735,
+            "f1-score": 0.43243243243243246,
+            "support": 19.0
+          },
+          "Floating Point Operations": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 3.0
+          },
+          "Network": {
+            "precision": 0.6666666666666666,
+            "recall": 0.2857142857142857,
+            "f1-score": 0.4,
+            "support": 14.0
+          },
+          "Platform Dependency": {
+            "precision": 0.25,
+            "recall": 0.47058823529411764,
+            "f1-score": 0.32653061224489793,
+            "support": 17.0
+          },
+          "Randomness": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 4.0
+          },
+          "Resource Leak": {
+            "precision": 0.5625,
+            "recall": 0.75,
+            "f1-score": 0.6428571428571429,
+            "support": 12.0
+          },
+          "Test Case Timeout": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+          },
+          "Test Order Dependency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 8.0
+          },
+          "Test Suite Timeout": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "Time": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+          },
+          "Too Restrictive Range": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "Unordered Collections": {
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.3333333333333333,
+            "support": 6.0
+          },
+          "accuracy": 0.3305084745762712,
+          "macro avg": {
+            "precision": 0.1889957264957265,
+            "recall": 0.2032031436056204,
+            "f1-score": 0.18441912329500157,
+            "support": 118.0
+          },
+          "weighted avg": {
+            "precision": 0.29642184557438794,
+            "recall": 0.3305084745762712,
+            "f1-score": 0.2931332123726837,
+            "support": 118.0
+          }
+        }
+      }
+    }
+  }
+}

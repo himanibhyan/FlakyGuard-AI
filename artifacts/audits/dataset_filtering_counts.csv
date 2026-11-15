@@ -1,0 +1,9 @@
+stage,starting_records,removed_records,remaining_records,canonical_repos,reason
+Raw Excel (Sheet: Data),1543,0,1543,850,Initial raw issue records from Barbosa et al. TSE 2023
+Deduplication,1543,30,1513,842,Pruned 25 explicitly flagged DUPLICATE rows + 5 duplicate URL Issue links
+Binary Eligibility,1513,412,1101,641,Excluded 222 Not Determined (ND) and 190 uninspected/null status records
+Task A Binary (Flaky T),1101,400,701,515,Positive class: Confirmed flaky issues (63.67%)
+Task A Binary (False Positive F),1101,701,400,323,Negative class: Confirmed false positives / deterministic bugs (36.33%)
+Root-Cause Eligibility,701,112,589,349,Filtered confirmed flaky issues (T); pruned 112 Hard to Classify records
+Task B Root-Cause Taxonomy,589,0,589,349,13 discrete empirical root-cause categories defined by Barbosa et al.
+Author ProjectsDomain (Sheet: ProjectsDomain Row 2),760,339,421,421,Author domain filtering tab: Projects with at least 1 flaky issue

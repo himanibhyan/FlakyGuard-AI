@@ -1,0 +1,7 @@
+setting,baseline_type,accuracy,macro_f1,weighted_f1,notes
+13-Class Discrete,Majority Class (Async Wait),0.178,0.0232,0.0538,Always predicts the most frequent class in training set
+13-Class Discrete,Uniform Random (Expected),0.0776,0.0655,0.0858,Random class drawn with uniform 1/13 probability
+13-Class Discrete,Stratified Random Prior (Expected),0.1172,0.0741,0.1151,Random class drawn according to training class frequencies
+4-Class Macroscopic,Majority Class (Resource & Environment),0.3729,0.1358,0.2026,Always predicts the most frequent macro class in training set
+4-Class Macroscopic,Uniform Random (Expected),0.2507,0.2383,0.2601,Random class drawn with uniform 1/4 probability
+4-Class Macroscopic,Stratified Random Prior (Expected),0.2839,0.2446,0.2827,Random class drawn according to training macro class frequencies

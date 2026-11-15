@@ -1,0 +1,119 @@
+issue_index,true_label_idx,true_label_name,pred_label_idx,pred_label_name,is_correct
+143,4,Platform Dependency,4,Platform Dependency,1
+346,8,Test Order Dependency,3,Network,0
+26,8,Test Order Dependency,12,Unordered Collections,0
+561,1,Concurrency,6,Resource Leak,0
+310,0,Async Wait,4,Platform Dependency,0
+173,0,Async Wait,3,Network,0
+17,1,Concurrency,4,Platform Dependency,0
+436,3,Network,3,Network,1
+482,12,Unordered Collections,12,Unordered Collections,1
+580,0,Async Wait,4,Platform Dependency,0
+384,10,Time,4,Platform Dependency,0
+517,4,Platform Dependency,6,Resource Leak,0
+207,1,Concurrency,2,Floating Point Operations,0
+25,3,Network,9,Test Suite Timeout,0
+285,6,Resource Leak,6,Resource Leak,1
+164,1,Concurrency,8,Test Order Dependency,0
+378,4,Platform Dependency,4,Platform Dependency,1
+480,8,Test Order Dependency,0,Async Wait,0
+326,0,Async Wait,4,Platform Dependency,0
+316,3,Network,0,Async Wait,0
+365,7,Test Case Timeout,0,Async Wait,0
+408,1,Concurrency,9,Test Suite Timeout,0
+306,12,Unordered Collections,12,Unordered Collections,1
+468,0,Async Wait,0,Async Wait,1
+269,1,Concurrency,3,Network,0
+108,0,Async Wait,3,Network,0
+317,4,Platform Dependency,4,Platform Dependency,1
+81,10,Time,0,Async Wait,0
+47,3,Network,0,Async Wait,0
+20,3,Network,7,Test Case Timeout,0
+570,6,Resource Leak,6,Resource Leak,1
+343,1,Concurrency,8,Test Order Dependency,0
+581,6,Resource Leak,6,Resource Leak,1
+100,7,Test Case Timeout,7,Test Case Timeout,1
+219,2,Floating Point Operations,9,Test Suite Timeout,0
+540,6,Resource Leak,6,Resource Leak,1
+155,10,Time,3,Network,0
+87,0,Async Wait,3,Network,0
+515,5,Randomness,5,Randomness,1
+392,7,Test Case Timeout,7,Test Case Timeout,1
+335,11,Too Restrictive Range,0,Async Wait,0
+49,3,Network,3,Network,1
+200,12,Unordered Collections,12,Unordered Collections,1
+92,6,Resource Leak,11,Too Restrictive Range,0
+121,8,Test Order Dependency,8,Test Order Dependency,1
+58,5,Randomness,12,Unordered Collections,0
+475,1,Concurrency,1,Concurrency,1
+541,6,Resource Leak,6,Resource Leak,1
+469,0,Async Wait,0,Async Wait,1
+267,0,Async Wait,0,Async Wait,1
+120,8,Test Order Dependency,0,Async Wait,0
+189,4,Platform Dependency,4,Platform Dependency,1
+224,2,Floating Point Operations,4,Platform Dependency,0
+278,1,Concurrency,4,Platform Dependency,0
+206,4,Platform Dependency,0,Async Wait,0
+398,6,Resource Leak,4,Platform Dependency,0
+180,4,Platform Dependency,8,Test Order Dependency,0
+509,7,Test Case Timeout,7,Test Case Timeout,1
+324,5,Randomness,4,Platform Dependency,0
+558,6,Resource Leak,6,Resource Leak,1
+470,0,Async Wait,1,Concurrency,0
+409,3,Network,4,Platform Dependency,0
+366,0,Async Wait,7,Test Case Timeout,0
+131,0,Async Wait,0,Async Wait,1
+249,4,Platform Dependency,12,Unordered Collections,0
+450,4,Platform Dependency,4,Platform Dependency,1
+107,9,Test Suite Timeout,0,Async Wait,0
+11,0,Async Wait,0,Async Wait,1
+582,6,Resource Leak,6,Resource Leak,1
+413,7,Test Case Timeout,7,Test Case Timeout,1
+377,3,Network,4,Platform Dependency,0
+68,3,Network,7,Test Case Timeout,0
+169,3,Network,3,Network,1
+425,1,Concurrency,1,Concurrency,1
+430,0,Async Wait,1,Concurrency,0
+588,6,Resource Leak,6,Resource Leak,1
+244,4,Platform Dependency,4,Platform Dependency,1
+6,0,Async Wait,8,Test Order Dependency,0
+439,0,Async Wait,4,Platform Dependency,0
+297,10,Time,4,Platform Dependency,0
+426,4,Platform Dependency,4,Platform Dependency,1
+369,6,Resource Leak,4,Platform Dependency,0
+390,3,Network,4,Platform Dependency,0
+565,6,Resource Leak,0,Async Wait,0
+501,3,Network,10,Time,0
+231,12,Unordered Collections,4,Platform Dependency,0
+320,7,Test Case Timeout,3,Network,0
+157,1,Concurrency,0,Async Wait,0
+544,1,Concurrency,8,Test Order Dependency,0
+116,1,Concurrency,4,Platform Dependency,0
+65,1,Concurrency,1,Concurrency,1
+308,10,Time,6,Resource Leak,0
+237,4,Platform Dependency,6,Resource Leak,0
+234,2,Floating Point Operations,4,Platform Dependency,0
+584,4,Platform Dependency,6,Resource Leak,0
+489,8,Test Order Dependency,6,Resource Leak,0
+103,0,Async Wait,12,Unordered Collections,0
+240,4,Platform Dependency,0,Async Wait,0
+268,0,Async Wait,0,Async Wait,1
+174,4,Platform Dependency,4,Platform Dependency,1
+159,8,Test Order Dependency,12,Unordered Collections,0
+48,1,Concurrency,0,Async Wait,0
+344,12,Unordered Collections,12,Unordered Collections,1
+218,3,Network,0,Async Wait,0
+253,5,Randomness,0,Async Wait,0
+441,4,Platform Dependency,2,Floating Point Operations,0
+187,10,Time,4,Platform Dependency,0
+352,0,Async Wait,0,Async Wait,1
+104,1,Concurrency,1,Concurrency,1
+404,12,Unordered Collections,12,Unordered Collections,1
+99,0,Async Wait,0,Async Wait,1
+454,4,Platform Dependency,4,Platform Dependency,1
+175,1,Concurrency,6,Resource Leak,0
+275,8,Test Order Dependency,4,Platform Dependency,0
+167,1,Concurrency,1,Concurrency,1
+29,3,Network,7,Test Case Timeout,0
+28,1,Concurrency,9,Test Suite Timeout,0
+414,0,Async Wait,12,Unordered Collections,0

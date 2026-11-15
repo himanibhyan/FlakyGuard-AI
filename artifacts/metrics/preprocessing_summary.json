@@ -1,0 +1,38 @@
+{
+  "raw_records": 1543,
+  "deduplicated_records": 1513,
+  "task_a_binary": {
+    "total_samples": 1101,
+    "flaky_positive (T)": 701,
+    "false_positive (F)": 400,
+    "imbalance_ratio": 1.752,
+    "languages": {
+      "js": 265,
+      "python": 222,
+      "java": 211,
+      "C": 211,
+      "go": 192
+    },
+    "avg_text_length_words": 169.8
+  },
+  "task_b_root_cause": {
+    "total_samples": 589,
+    "num_classes": 13,
+    "class_distribution": {
+      "Async Wait": 103,
+      "Concurrency": 97,
+      "Platform Dependency": 86,
+      "Network": 71,
+      "Resource Leak": 61,
+      "Test Order Dependency": 40,
+      "Test Case Timeout": 28,
+      "Time": 28,
+      "Unordered Collections": 28,
+      "Randomness": 22,
+      "Floating Point Operations": 14,
+      "Too Restrictive Range": 6,
+      "Test Suite Timeout": 5
+    },
+    "avg_text_length_words": 180.5
+  }
+}

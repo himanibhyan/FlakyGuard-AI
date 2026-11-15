@@ -1,0 +1,14 @@
+class_idx,class_name,support,true_positives,false_negatives,false_positives,precision,recall,f1_score
+0,Async Wait,21,8,13,15,0.3478,0.381,0.3636
+1,Concurrency,19,5,14,2,0.7143,0.2632,0.3846
+2,Floating Point Operations,3,0,3,2,0.0,0.0,0.0
+3,Network,14,3,11,7,0.3,0.2143,0.25
+4,Platform Dependency,17,9,8,20,0.3103,0.5294,0.3913
+5,Randomness,4,1,3,0,1.0,0.25,0.4
+6,Resource Leak,12,8,4,7,0.5333,0.6667,0.5926
+7,Test Case Timeout,6,4,2,4,0.5,0.6667,0.5714
+8,Test Order Dependency,8,1,7,5,0.1667,0.125,0.1429
+9,Test Suite Timeout,1,0,1,4,0.0,0.0,0.0
+10,Time,6,0,6,1,0.0,0.0,0.0
+11,Too Restrictive Range,1,0,1,1,0.0,0.0,0.0
+12,Unordered Collections,6,5,1,6,0.4545,0.8333,0.5882
